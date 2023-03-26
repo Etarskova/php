@@ -1,4 +1,45 @@
+body {
+    background-color: aliceblue;
+}
+
 .game-card {
     height: 100vh;
     font-family: 'Open Sans', monospace;
+}
+
+.card-header {
+    background-color: rgb(169, 225, 237);
+}
+
+.card-footer {
+    background-color: rgb(169, 225, 237);
+}
+
+.hidden {
+    display: none;
+}
+
+card {
+    margin-right: 20px;
+    transition: 1s;
+}
+
+.card-body {
+    background-color: rgb(232, 248, 248);
+}
+
+form-group {
+    margin-inline: auto;
+    padding: 15px;
+    width: auto;
+}
+
+#btnRetry {
+    font-weight: bold;
+    color: blue;
+}
+
+#btnEqual {
+    margin-right: 20px;
+    margin-left: 20px;
 }
